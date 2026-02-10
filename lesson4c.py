@@ -20,11 +20,16 @@ print("________________________________________")
 
 search = str(input("Enter county to search"))
 
+found = False
 for county in counties:
-    if county == "Nakuru":
-        print("County is part of list")
+    if county == search:
+        found = True
+        break
+
+if found:
+        print(county, "is part of list")
 else:
-    print("county us not part of the list")
+    print(county, "is not part of the list")
 
 #for loop can be used in a dictionaty
 
