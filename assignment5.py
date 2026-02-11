@@ -39,15 +39,17 @@ else:
 #loop with arithmetic
 n = int(input("ENTER NUMBER HERE"))
 sum = 0
-for i in range(1, n+1):
-    sum+-i
-    print(sum)
+total_sum = 0
+
+for i in range(1, n + 1):
+    total_sum+=i
+    print(total_sum)
 
 
 #While loop that prints squares from 1 to n
 n = int(input("enter here"))
 i = 1
-while i <= i:
+while i <= n:
     square = i**2
     print(square)
     i += 1
