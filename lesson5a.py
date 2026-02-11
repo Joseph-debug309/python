@@ -46,5 +46,6 @@ def divide():
     print("--------")
 
 for function in range(3):
-    divide()
     print("Enter new data")
+    divide()
+    

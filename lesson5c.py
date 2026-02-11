@@ -6,3 +6,12 @@ def simpleintrest(p, r, t):
     print(SI)
 
 simpleintrest(45000, 7, 8)
+
+#loop for two others
+intrests = [
+    (40000, 4, 5),
+    (56000, 3, 8)
+]
+
+for p, r, t in intrests:
+    simpleintrest(p, r, t)
